@@ -11,14 +11,17 @@
 </head>
 <body>
     <?php
-        if (isset($errorMessage)) {
+        if (isset($myMessage)) {
             ?>
-            <p class="h2"><?=$errorMessage?></p>
+            <p class="h2"><?=$myMessage?></p>
             <?php
         }
         ?>
-        <p class="h1">HI</p>
-
+        <p class="h1">YOU ARE HOME</p>
+        <a href="?login">
+            <p class="h2">LOGIN</p>
+        </a>
+        <?php if (isset($_GET["login"])) include ("inc/loginForm.php"); ?>
 <?php include ("inc/footer.public.php"); ?>
 <?php include ("../view/cdn/jsBS.php") ?>
 <script src="js/script.js"></script>

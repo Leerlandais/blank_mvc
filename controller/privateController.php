@@ -8,6 +8,6 @@ if (isset($_GET["logout"])) {
 }
 
     // Appel du page d'accueil Admin
-    $title = '???';
+    $title = '???homeAdmin???';
     
     include "../view/private/adminhome.view.php";
