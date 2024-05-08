@@ -1,0 +1,15 @@
+@font-face {
+    font-family: HVNThin;
+    src: url("../assets/helvetica-neue-5/HelveticaNeueThin.otf");
+
+    font-family: HVNRoman;
+    src: url("../assets/helvetica-neue-5/HelveticaNeueRoman.otf");
+  }
+
+.global {
+  font-family: HVNRoman;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
